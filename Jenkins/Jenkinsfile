@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'echo "I am  image Testing the docker"'
+                sh 'echo "I am  image cTesting the docker"'
             }
         }
         stage('Deploy') {
